@@ -17,3 +17,8 @@ Here's how the perceptron algorithm works, step by step:
 4. **Update weights and bias**: The weights and bias are updated based on the error between the predicted output and the actual output.
 5. **Repeat**: Steps 2-4 are repeated for a fixed number of iterations or until the error is minimized.
 
+## Note 
+
+The perceptron algorithm is guaranteed to converge to a solution if the data is linearly separable, which means there exists a hyperplane that can separate the two classes. However, if the data is not linearly separable, the algorithm may not converge to a solution.
+
+If you re - run the code in your machine the accuracy that you get may differ from mine as the data points generated are completely random and some times they are not linearly seperable. In that case just re- run the code 😉.
