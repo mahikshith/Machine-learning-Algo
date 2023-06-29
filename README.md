@@ -22,3 +22,5 @@ Here's how the perceptron algorithm works, step by step:
 The perceptron algorithm is guaranteed to converge to a solution if the data is linearly separable, which means there exists a hyperplane that can separate the two classes. However, if the data is not linearly separable, the algorithm may not converge to a solution.
 
 If you re - run the code in your machine the accuracy that you get may differ from mine as the data points generated are completely random and some times they are not linearly seperable. In that case just re- run the code 😉.
+
+https://www.kaggle.com/mahikshith/simple-perceptron-algorithm
